@@ -1,0 +1,5 @@
+\documentclass{article}
+\begin{document}
+$\psi = a_0 e^{-\rho} $
+\end{document}
+# smth
