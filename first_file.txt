@@ -1,5 +1,22 @@
 \documentclass{article}
+\title {OSINT and topic modelling}
 \begin{document}
-$\psi = a_0 e^{-\rho} $
+\maketitle
+\section {Introduction}
+In natural language processing, topic modelling is a method for documents classification and describing document content in large document collections. Probabilistic topic models are generally unsupervised generative models. Formally, a topic is a probability distribution over terms in a vocabulary. In other words, a topic is a set of statistically linked words.
+Topic models approach assumes that:
+\begin{itemize}
+\item each topic is a probability distribution over words
+\item the document is a probability distribution over topics
+\item words order in documents does not matter
+\end{itemize}
+Each document has contributions of multiple topics with some probabilities.
+$$p(w|d)=p(w|d)p(t|d)=\sum_{t \in \theta} \phi_{wt} \theta_{td} = 1$$
+
+\subsection {Probabilistic latent semantic analysis (PLSA)}
+Probabilistic latent semantic analysis (PLSA)
+\subsection {Laten Dirichle allocation (LDA)}
+Laten Dirichle allocation (LDA)
+\subsection {Additive regularization topic models (ARTM)}
+Additive regularization topic models (ARTM)
 \end{document}
-# smth
